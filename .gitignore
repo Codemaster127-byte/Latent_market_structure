@@ -1,0 +1,14 @@
+venv1/
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+
+data/
+.env
+.DS_Store
+*.csv
+
+.env
+token.json
+
+

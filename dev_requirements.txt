@@ -1,0 +1,39 @@
+pytest>=4.6.11
+responses>=0.12.1
+pytest-cov>=2.10.1
+flake8>=3.8.4, <= 4.0.1
+mock>=3.0.5
+urllib3<2.0
+
+# Zerodha API
+
+kiteconnect==5.1.0
+
+# Core computation
+
+numpy
+pandas
+scipy
+
+# Backend / API server
+
+fastapi
+uvicorn
+
+# Async + networking
+
+httpx
+aiofiles
+
+# Utilities
+
+python-dotenv
+rich
+
+# Graph / quant research
+
+networkx
+
+# Optional (only if needed)
+
+playwright
