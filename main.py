@@ -5,7 +5,7 @@ from src.data_pipeline import *
 from src.lineral_alg import *
 from src.eigen import *
 from src.ortho import *
-
+from src.visual import*
 
 def main():
     print("running project")
@@ -28,7 +28,8 @@ def main():
 
     print_diagnostics(eigvals_norm,eigvecs)
 
-
+    visualize_eigenvectors(eigvecs)
+    
 
     
 

@@ -29,4 +29,4 @@ def print_diagnostics(eigvals_norm,eigvecs ,top_k=10):
 
     print("\nEigen Vectors")
     for i in range(min(top_k, len(eigvecs))):
-        print(f"{i+1} components: {eigvecs[i]}")
+        print(f"{i+1} components: {eigvecs[:,i]}")
