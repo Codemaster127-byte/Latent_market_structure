@@ -64,7 +64,7 @@ def _sector_contribution_signed(eigvec):
 
 
 # --- MAIN FUNCTION ---
-def visualize_eigenvectors(eigvecs, top_k=5):
+def visualize_eigenvectors(eigvecs, top_k=7):
     """
     eigvecs: numpy array (n_stocks x n_components)
     """
